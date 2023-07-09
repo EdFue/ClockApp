@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/worldClockFragment">
+
+    <fragment
+        android:id="@+id/alarmFragment"
+        android:name="edu.msudenver.cs3013.project01.AlarmFragment"
+        android:label="fragment_alarm"
+        tools:layout="@layout/fragment_alarm" >
+        <action
+            android:id="@+id/action_alarmFragment_to_alarmSoundPickerFragment"
+            app:destination="@id/alarmSoundPickerFragment" />
+        <action
+            android:id="@+id/action_alarmFragment_to_alarmLabelFragment"
+            app:destination="@id/alarmLabelFragment" />
+        <action
+            android:id="@+id/action_alarmFragment_to_alarmTimePickerFragment"
+            app:destination="@id/alarmTimePickerFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="edu.msudenver.cs3013.project01.SettingsFragment"
+        android:label="fragment_settings"
+        tools:layout="@layout/fragment_settings" />
+    <fragment
+        android:id="@+id/stopwatchFragment"
+        android:name="edu.msudenver.cs3013.project01.StopwatchFragment"
+        android:label="fragment_stopwatch"
+        tools:layout="@layout/fragment_stopwatch" />
+    <fragment
+        android:id="@+id/timerFragment"
+        android:name="edu.msudenver.cs3013.project01.TimerFragment"
+        android:label="fragment_timer"
+        tools:layout="@layout/fragment_timer" />
+    <fragment
+        android:id="@+id/worldClockFragment"
+        android:name="edu.msudenver.cs3013.project01.WorldClockFragment"
+        android:label="fragment_world_clock"
+        tools:layout="@layout/fragment_world_clock" />
+    <fragment
+        android:id="@+id/alarmLabelFragment"
+        android:name="edu.msudenver.cs3013.project01.AlarmLabelFragment"
+        android:label="fragment_alarm_label"
+        tools:layout="@layout/fragment_alarm_label" />
+    <fragment
+        android:id="@+id/alarmSoundPickerFragment"
+        android:name="edu.msudenver.cs3013.project01.AlarmSoundPickerFragment"
+        android:label="fragment_alarm_sound_picker"
+        tools:layout="@layout/fragment_alarm_sound_picker" />
+    <fragment
+        android:id="@+id/alarmTimePickerFragment"
+        android:name="edu.msudenver.cs3013.project01.AlarmTimePickerFragment"
+        android:label="fragment_alarm_time_picker"
+        tools:layout="@layout/fragment_alarm_time_picker" />
+</navigation>

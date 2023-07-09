@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Project01</string>
+    <string name="enter_your_name">Enter your name</string>
+    <string name="submit">submit</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="world_clock">World Clock</string>
+    <string name="stopwatch">Stopwatch</string>
+    <string name="timer">Timer</string>
+    <string name="alarm">Alarm</string>
+    <string name="snooze">snooze</string>
+    <string name="set_alarm_label">Set Alarm Label</string>
+    <string name="set_alarm">Set Alarm</string>
+    <string name="select_time">Select Time</string>
+    <string name="preset_alarm">Preset Alarm</string>
+    <string name="set_alarm_sound">Set Alarm Sound</string>
+    <string name="selected_sound">Selected Sound</string>
+    <string name="selected_label">Selected Label</string>
+</resources>

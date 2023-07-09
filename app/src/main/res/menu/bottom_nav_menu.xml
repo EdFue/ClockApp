@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/worldClockFragment"
+        android:drawable="@drawable/ic_world_clock"
+        android:title="@string/world_clock" />
+    <item
+        android:id="@+id/stopwatchFragment"
+        android:drawable="@drawable/ic_stopwatch"
+        android:title="@string/stopwatch" />
+    <item
+        android:id="@+id/timerFragment"
+        android:drawable="@drawable/ic_timer"
+        android:title="@string/timer" />
+    <item
+        android:id="@+id/alarmFragment"
+        android:drawable="@drawable/ic_alarm"
+        android:title="@string/alarm" />
+
+
+</menu>
